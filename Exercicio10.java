@@ -23,8 +23,8 @@ public class Exercicio10 {
             System.out.printf("\nPercentual de votos Brancos: %.1f", ((branco * 100) / total));
             System.out.printf("\nPercentual de votos Nulos: %.1f", ((nul * 100) / total));
 
-            if ((total - valid - branco - nul) != 0) {
-                System.out.printf("\nPercentual de votos Não declarados': %.1f", (((total - branco - valid - nul) * 100) / total));
+            if ((verifica) != 0) {
+                System.out.printf("\nPercentual de votos Não declarados: %.1f", (((verifica) * 100) / total));
             }
         } else {
             System.out.println("Número de votos detalhados superou o total de votos declarado");
