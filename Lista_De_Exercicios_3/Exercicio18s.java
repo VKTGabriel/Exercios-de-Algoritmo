@@ -1,3 +1,5 @@
+package Lista_De_Exercicios_3;
+
 import java.util.Scanner;
 import java.lang.Math;
 import java.util.Locale;
