@@ -26,7 +26,6 @@ public class Exercicio3 {
                     if (troco > 0){
                         System.out.println(troco + " nota(s) de R$ " + notas[i] + ".00");
                         valor -= troco*notas[i];
-                        troco = 0;
                     }
                 }
             }
@@ -38,7 +37,6 @@ public class Exercicio3 {
                     if (troco > 0){
                         System.out.printf("%d moedas(s) de R$ %.2f\n", troco, moedas[i]);
                         valor = Double.parseDouble(formatar.format(valor%moedas[i]));
-                        troco = 0;
                     }
                 }
             }
