@@ -46,7 +46,5 @@ public class Exercicio3 {
         } else {
             System.out.println("Valor inválido");
         }
-
-
     }
 }
