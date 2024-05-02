@@ -19,7 +19,7 @@ public class Exercicio1 {
             c = 0;
         }
 
-        if (a>(b*2)){
+        if (a>=(b*2)){
             System.out.println("Resultado: " + a%b);
         } else {
             System.out.println("Resultado: " + a*b);

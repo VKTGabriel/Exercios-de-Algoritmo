@@ -1,26 +1,30 @@
 package Exercicio_Extra;
 
 import java.util.Scanner;
-import java.lang.Math;
+import java.util.Locale;
 
 public class Exercicio3 {
     public static void main(String[] args) {
-        double x1, x2, y1, y2, valor;
-        Scanner ler = new Scanner(System.in);
+        double valor;
+        Scanner ler = new Scanner(System.in).useLocale(Locale.US);
+        Locale.setDefault(Locale.US);
 
-        System.out.println("Digite o valor de X1:");
-        x1 = ler.nextInt();
-        System.out.println("Digite o valor de Y1:");
-        y1 = ler.nextInt();
+        System.out.println("Digite o seu salário:");
+        valor = ler.nextDouble();
 
-        System.out.println("Digite o valor de X2:");
-        x2 = ler.nextInt();
-        System.out.println("Digite o valor de Y2:");
-        y2 = ler.nextInt();
-
-        valor = Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
-
-        System.out.printf("Distância = %.4f", valor);
+        if (valor > 4500){
+            System.out.printf("Valor a pagar R$%.2f", (((valor - 4500) * 0.28) + 350));
+        } else {
+            if  (valor > 3000){
+                System.out.printf("Valor a pagar R$%.2f", (((valor - 3000) * 0.18) + 80));
+            } else {
+                if (valor > 2000) {
+                    System.out.printf("Valor a pagar R$%.2f", ((valor - 2000) * 0.08));
+                } else {
+                    System.out.println("Isento");
+                }
+            }
+        }
 
     }
 }

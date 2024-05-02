@@ -18,5 +18,6 @@ public class Exercicio4 {
         System.out.println(x+2);
         System.out.println(x+4);
         System.out.println(x+6);
+
     }
 }
