@@ -16,7 +16,6 @@ public class Exercicio1 {
             double c = a;
             a = b;
             b = c;
-            c = 0;
         }
 
         if (a>=(b*2)){
