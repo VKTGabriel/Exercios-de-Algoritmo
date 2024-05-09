@@ -15,10 +15,10 @@ public class Exercicio6 {
             System.out.printf("%d", esse);
             if (num > 1) {
                 prox = 1;
-                System.out.printf(" - %d", prox);
+                System.out.printf(" %d", prox);
                 for (int i = 1; i <= (num - 2); i++) {
                     soma = esse + prox;
-                    System.out.printf(" - %d", soma);
+                    System.out.printf(" %d", soma);
                     esse = prox;
                     prox = soma;
                 }
