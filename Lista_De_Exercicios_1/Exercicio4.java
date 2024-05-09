@@ -15,7 +15,6 @@ public class Exercicio4 {
             c = a;
             a = b;
             b = c;
-            c = 0;
         }
 
         if (a%2 == 0){
