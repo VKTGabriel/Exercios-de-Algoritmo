@@ -9,7 +9,7 @@ public class Exercicio24s {
         String s;
 
         Scanner ler = new Scanner(System.in);
-        System.out.println("Envie 3 números:");
+        System.out.println("Envie 3 nÃºmeros:");
         a = ler.nextInt();
         b = ler.nextInt();
         c = ler.nextInt();

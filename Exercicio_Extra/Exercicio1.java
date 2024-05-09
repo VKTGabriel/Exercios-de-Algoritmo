@@ -8,7 +8,7 @@ public class Exercicio1 {
         double a,b;
         Scanner ler = new Scanner(System.in).useLocale(Locale.US);
 
-        System.out.println("Digite 2 números:");
+        System.out.println("Digite 2 nÃºmeros:");
         a = ler.nextDouble();
         b = ler.nextDouble();
 

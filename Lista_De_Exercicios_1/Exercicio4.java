@@ -6,7 +6,7 @@ public class Exercicio4 {
         int a,b;
 
         Scanner ler = new Scanner(System.in);
-        System.out.println("Digite 2 números inteiros:");
+        System.out.println("Digite 2 nÃºmeros inteiros:");
         a = ler.nextInt();
         b = ler.nextInt();
 

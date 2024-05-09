@@ -22,11 +22,11 @@ public class Exercicio1 {
                 System.out.printf("R1 = %.5f", ((-b + Math.sqrt(delta))/(2*a)));
                 System.out.printf("\nR2 = %.5f\n", ((-b - Math.sqrt(delta))/(2*a)));
             } else {
-                System.out.println("Impossível Calcular\n");
+                System.out.println("ImpossÃ­vel Calcular\n");
             };
 
         } else {
-            System.out.println("Impossível Calcular\n");
+            System.out.println("ImpossÃ­vel Calcular\n");
         };
 
     }

@@ -8,21 +8,21 @@ public class Exercicio21s {
     public static void main(String[] args) {
         double a,b,c;
         Scanner ler = new Scanner(System.in).useLocale(Locale.US);
-        System.out.println("Digite os três lados do triângulo:");
+        System.out.println("Digite os trÃªs lados do triÃ¢ngulo:");
         a = ler.nextDouble();
         b = ler.nextDouble();
         c = ler.nextDouble();
 
         if (a<b+c && b<a+c && c<b+a){
             if (a==b && b==c && a==c){
-                System.out.println("Triângulo Equilátero");
+                System.out.println("TriÃ¢ngulo EquilÃ¡tero");
             } else if (a==b || a==c || b==c){
-                System.out.println("Triângulo Isósceles");
+                System.out.println("TriÃ¢ngulo IsÃ³sceles");
             } else {
-                System.out.println("Triângulo Escaleno");
+                System.out.println("TriÃ¢ngulo Escaleno");
             };
         } else{
-            System.out.println("Não é um Triângulo");
+            System.out.println("NÃ£o Ã© um TriÃ¢ngulo");
         };
 
 

@@ -7,10 +7,10 @@ public class Exercicio12 {
     public static void main(String[] args) {
         double custoFabrica;
         Scanner ler = new Scanner(System.in).useLocale(Locale.US);
-        System.out.println("Digite o preÁo de f·brica do veÌculo:");
+        System.out.println("Digite o pre√ßo de f√°brica do ve√≠culo:");
         custoFabrica = ler.nextDouble();
 
-        System.out.printf("Digite o valor final do veÌculo para o consumidor È: R$%.2f", ((custoFabrica*1.28)*1.45));
+        System.out.printf("Digite o valor final do ve√≠culo para o consumidor √©: R$%.2f", ((custoFabrica*1.28)*1.45));
 
     }
 }

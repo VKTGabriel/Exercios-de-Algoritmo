@@ -7,7 +7,7 @@ public class Exercicio15 {
         int quant;
         double valor;
         Scanner ler = new Scanner(System.in);
-        System.out.println("Quantas maçãs você deseja?");
+        System.out.println("Quantas maÃ§Ã£s vocÃª deseja?");
         quant = ler.nextInt();
 
         if (quant >= 12){

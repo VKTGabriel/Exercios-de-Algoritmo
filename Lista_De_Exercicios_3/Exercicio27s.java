@@ -16,11 +16,11 @@ public class Exercicio27s {
         prod = ler.nextLine();
         System.out.println("Qual a quantidade de adquirida?");
         quant = ler.nextInt();
-        System.out.println("Qual o valor unit·rio do produto?");
+        System.out.println("Qual o valor unit√°rio do produto?");
         valor = ler.nextDouble();
 
         System.out.println("Produto: " + prod);
-        System.out.printf("PreÁo final: %.2f \n", quant*valor);
+        System.out.printf("Pre√ßo final: %.2f \n", quant*valor);
 
         if (quant <= 5){
             desc = quant*valor*0.02;

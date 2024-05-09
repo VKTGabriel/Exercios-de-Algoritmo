@@ -7,14 +7,14 @@ public class Exercicio5 {
         int anos, meses, dias;
         Scanner ler = new Scanner(System.in);
 
-        System.out.println("Quantos anos você já completou?");
+        System.out.println("Quantos anos vocÃª jÃ¡ completou?");
         anos = ler.nextInt();
-        System.out.println("Quantos meses completos já se passaram desde seu último aniversário?");
+        System.out.println("Quantos meses completos jÃ¡ se passaram desde seu Ãºltimo aniversÃ¡rio?");
         meses = ler.nextInt();
-        System.out.println("Ignorando os meses, qual a diferença entre o dia de hoje e o dia do seu aniversário?");
+        System.out.println("Ignorando os meses, qual a diferenÃ§a entre o dia de hoje e o dia do seu aniversÃ¡rio?");
         dias = ler.nextInt();
 
-        System.out.println("Sua idade em dias é: " + ((anos*365)+(meses*30)+(dias)));
+        System.out.println("Sua idade em dias Ã©: " + ((anos*365)+(meses*30)+(dias)));
 
     }
 }

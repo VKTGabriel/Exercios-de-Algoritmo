@@ -15,7 +15,7 @@ public class Exercicio4 {
         System.out.println("Digite a terceira  do aluno:");
         c = ler.nextDouble();
 
-        System.out.printf("A média do aluno é: %.1f", ((a*2)+(b*3)+(c*5))/10);
+        System.out.printf("A mÃ©dia do aluno Ã©: %.1f", ((a*2)+(b*3)+(c*5))/10);
 
     }
 }

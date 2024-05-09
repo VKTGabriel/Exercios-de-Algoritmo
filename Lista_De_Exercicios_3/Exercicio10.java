@@ -7,7 +7,7 @@ public class Exercicio10 {
         int total;
         double valid, branco, nul, verifica;
         Scanner ler = new Scanner(System.in);
-        System.out.println("Qual o total de eleitores deste município?");
+        System.out.println("Qual o total de eleitores deste municÃ­pio?");
         total = ler.nextInt();
         System.out.println("Quantos votos foram validados?");
         valid = ler.nextInt();
@@ -21,15 +21,15 @@ public class Exercicio10 {
         if (verifica >= 0) {
 
             System.out.printf("Total de votos: %d", total);
-            System.out.printf("\nPercentual de votos Válidos: %.1f", ((valid * 100) / total));
+            System.out.printf("\nPercentual de votos VÃ¡lidos: %.1f", ((valid * 100) / total));
             System.out.printf("\nPercentual de votos Brancos: %.1f", ((branco * 100) / total));
             System.out.printf("\nPercentual de votos Nulos: %.1f", ((nul * 100) / total));
 
             if ((verifica) != 0) {
-                System.out.printf("\nPercentual de votos Não declarados: %.1f", (((verifica) * 100) / total));
+                System.out.printf("\nPercentual de votos NÃ£o declarados: %.1f", (((verifica) * 100) / total));
             }
         } else {
-            System.out.println("Número de votos detalhados superou o total de votos declarado");
+            System.out.println("NÃºmero de votos detalhados superou o total de votos declarado");
         }
 
 

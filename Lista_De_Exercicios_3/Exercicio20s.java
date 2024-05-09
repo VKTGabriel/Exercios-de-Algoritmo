@@ -16,7 +16,7 @@ public class Exercicio20s {
         if ((a+b)/2>=7){
             System.out.println("Aprovado \nNota final: " + (a+b)/2);
         } else {
-            System.out.println("Digite o resultado da recuperação:");
+            System.out.println("Digite o resultado da recuperaÃ§Ã£o:");
             c = ler.nextDouble();
             if ((a+c)/2>=7){
                 System.out.println("Aprovado \nNota final: " + 6.00);

@@ -8,13 +8,13 @@ public class Exercicio2s {
     public static void main(String[] args) {
         double a, b, c, media;
         Scanner entrada = new Scanner(System.in).useLocale(Locale.US);
-        System.out.println("Digite 3 números:");
+        System.out.println("Digite 3 nÃºmeros:");
         a = entrada.nextDouble();
         b = entrada.nextDouble();
         c = entrada.nextDouble();
 
         media = (a + b + c)/3;
 
-        System.out.println("A média é: " + media);
+        System.out.println("A mÃ©dia Ã©: " + media);
     }
 }

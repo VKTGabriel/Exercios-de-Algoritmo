@@ -9,15 +9,15 @@ public class Exercicio23s {
         double num;
 
         Scanner ler = new Scanner(System.in).useLocale(Locale.US);
-        System.out.println("Digite um número:");
+        System.out.println("Digite um nÃºmero:");
         num = ler.nextDouble();
 
         if(num == 0){
-            System.out.println("O número é 0");
+            System.out.println("O nÃºmero Ã© 0");
         } else if (num <0){
-            System.out.println("O número é negativo");
+            System.out.println("O nÃºmero Ã© negativo");
         } else {
-            System.out.println("O número é positivo");
+            System.out.println("O nÃºmero Ã© positivo");
         };
 
 

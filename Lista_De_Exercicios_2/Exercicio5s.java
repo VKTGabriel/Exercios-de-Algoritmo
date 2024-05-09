@@ -7,7 +7,7 @@ public class Exercicio5s {
     public static void main(String[] args) {
         double salario,gratificacao,imposto,total;
         Scanner entrada = new Scanner(System.in).useLocale(Locale.US);
-        System.out.println("Digite o seu sal·rio:");
+        System.out.println("Digite o seu sal√°rio:");
         salario = entrada.nextDouble();
 
         gratificacao = salario*0.05;
@@ -15,8 +15,8 @@ public class Exercicio5s {
         total = salario+gratificacao-imposto;
 
         System.out.printf("Total recebido: R$%.2f", total);
-        System.out.printf("\nSal·rio base: R$%.2f", salario);
-        System.out.printf("\nGratificaÁ„o: R$%.2f", gratificacao);
+        System.out.printf("\nSal√°rio base: R$%.2f", salario);
+        System.out.printf("\nGratifica√ß√£o: R$%.2f", gratificacao);
         System.out.printf("\nImposto Pago: R$%.2f", imposto);
     }
 }

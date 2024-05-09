@@ -7,13 +7,13 @@ public class Exercicio14 {
     public static void main(String[] args) {
         int a;
         Scanner ler = new Scanner(System.in).useLocale(Locale.US);
-        System.out.println("Digite un número inteiro:");
+        System.out.println("Digite un nÃºmero inteiro:");
         a = ler.nextInt();
 
         if (a%2 == 0){
-            System.out.println("É PAR");
+            System.out.println("Ã‰ PAR");
         } else {
-            System.out.println("É IMPAR");
+            System.out.println("Ã‰ IMPAR");
         }
 
     }

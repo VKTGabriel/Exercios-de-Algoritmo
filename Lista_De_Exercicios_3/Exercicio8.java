@@ -16,7 +16,7 @@ public class Exercicio8 {
             a = (char) (val1 + 32);
             System.out.println("Caractere minusculo: " + a);
         } else {
-            System.out.println("Caractere inv·lido");
+            System.out.println("Caractere inv√°lido");
         }
 
     }

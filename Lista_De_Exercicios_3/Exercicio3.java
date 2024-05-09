@@ -11,6 +11,6 @@ public class Exercicio3 {
         System.out.println("Digite a temperatura em Fahrenheit:");
         temp = ler.nextDouble();
 
-        System.out.printf("A temperatura em Celcius é: %.1f", ((temp-32)/9)*5);
+        System.out.printf("A temperatura em Celcius Ã©: %.1f", ((temp-32)/9)*5);
     }
 }

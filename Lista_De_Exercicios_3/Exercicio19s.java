@@ -21,12 +21,12 @@ public class Exercicio19s {
         b = ler.nextDouble();
 
         if((h1*a)==(h2*b)){
-            System.out.println("Ambos recebem o mesmo sal·rio");
+            System.out.println("Ambos recebem o mesmo sal√°rio");
         } else {
             if((h1*a)>(h2*b)){
-                System.out.println("O primeiro professor recebe o maior sal·rio");
+                System.out.println("O primeiro professor recebe o maior sal√°rio");
             } else {
-                System.out.println("O segundo professor recebe o maior sal·rio");
+                System.out.println("O segundo professor recebe o maior sal√°rio");
             }
         }
 

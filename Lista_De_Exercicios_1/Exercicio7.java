@@ -5,7 +5,7 @@ public class Exercicio7 {
     public static void main(String[] args) {
         int num;
         Scanner ler = new Scanner(System.in);
-        System.out.println("Digite um n˙mero para an·lise:");
+        System.out.println("Digite um n√∫mero para an√°lise:");
         num = ler.nextInt();
 
         int control = 0;
@@ -18,9 +18,9 @@ public class Exercicio7 {
         }
 
         if (control!=1){
-            System.out.println(num + " È primo");
+            System.out.println(num + " √© primo");
         } else {
-            System.out.println(num + " n„o È primo");
+            System.out.println(num + " n√£o √© primo");
         }
     }
 }

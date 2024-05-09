@@ -7,7 +7,7 @@ public class Exercicio4 {
         int x;
         Scanner ler = new Scanner(System.in);
 
-        System.out.println("Digite um número inteiro:");
+        System.out.println("Digite um nÃºmero inteiro:");
         x = ler.nextInt();
 
         if (x%2 == 0){

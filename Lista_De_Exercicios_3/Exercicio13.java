@@ -7,16 +7,16 @@ public class Exercicio13 {
     public static void main(String[] args) {
         int a;
         Scanner ler = new Scanner(System.in).useLocale(Locale.US);
-        System.out.println("Digite un número inteiro:");
+        System.out.println("Digite un nÃºmero inteiro:");
         a = ler.nextInt();
 
         if (a==10){
-            System.out.println("É 10");
+            System.out.println("Ã‰ 10");
         } else {
             if (a>10){
-                System.out.println("É MAIOR QUE 10");
+                System.out.println("Ã‰ MAIOR QUE 10");
             } else {
-                System.out.println("É MENOR QUE 10");
+                System.out.println("Ã‰ MENOR QUE 10");
             }
         }
 

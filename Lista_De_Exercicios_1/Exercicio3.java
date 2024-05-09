@@ -13,7 +13,7 @@ public class Exercicio3 {
         Locale.setDefault(Locale.US);
         DecimalFormat formatar = new DecimalFormat("0.00");
 
-        System.out.println("Digite o valor que você deseja decompor:");
+        System.out.println("Digite o valor que vocÃª deseja decompor:");
         valor = ler.nextDouble();
 
         int troco = 0;
@@ -42,7 +42,7 @@ public class Exercicio3 {
             }
 
         } else {
-            System.out.println("Valor inválido");
+            System.out.println("Valor invÃ¡lido");
         }
     }
 }

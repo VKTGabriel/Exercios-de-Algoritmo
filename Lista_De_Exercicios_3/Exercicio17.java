@@ -6,7 +6,7 @@ public class Exercicio17 {
     public static void main(String[] args) {
         int a,b,c;
         Scanner ler = new Scanner(System.in);
-        System.out.println("Digite 5 números:");
+        System.out.println("Digite 5 nÃºmeros:");
         a = ler.nextInt();
         b = ler.nextInt();
 

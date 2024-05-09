@@ -20,7 +20,7 @@ public class Exercicio2 {
 
         valor = Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
 
-        System.out.printf("Dist‚ncia = %.4f", valor);
+        System.out.printf("Dist√¢ncia = %.4f", valor);
 
     }
 }

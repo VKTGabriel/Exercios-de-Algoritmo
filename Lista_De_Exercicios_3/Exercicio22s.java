@@ -9,15 +9,15 @@ public class Exercicio22s {
         double salario, vendas;
 
         Scanner ler = new Scanner(System.in).useLocale(Locale.US);
-        System.out.println("Digite o sal·rio do vendedor:");
+        System.out.println("Digite o sal√°rio do vendedor:");
         salario = ler.nextDouble();
         System.out.println("Digite o valor das vendas:");
         vendas = ler.nextDouble();
 
         if (vendas > 1500){
-            System.out.printf("Sal·rio total: R$ %.2f", (salario + (1500*0.03) + ((vendas-1500)*0.05)));
+            System.out.printf("Sal√°rio total: R$ %.2f", (salario + (1500*0.03) + ((vendas-1500)*0.05)));
         } else {
-            System.out.printf("Sal·rio total: R$ %.2f", (salario + (vendas*0.03)));
+            System.out.printf("Sal√°rio total: R$ %.2f", (salario + (vendas*0.03)));
         };
 
 

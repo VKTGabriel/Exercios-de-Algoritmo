@@ -9,7 +9,7 @@ public class Exercicio3 {
         Scanner ler = new Scanner(System.in).useLocale(Locale.US);
         Locale.setDefault(Locale.US);
 
-        System.out.println("Digite o seu salário:");
+        System.out.println("Digite o seu salÃ¡rio:");
         valor = ler.nextDouble();
 
         if (valor > 4500){
