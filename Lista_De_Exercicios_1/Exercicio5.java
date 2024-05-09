@@ -12,10 +12,10 @@ public class Exercicio5 {
         x2 = ler.nextDouble();
         x3 = ler.nextDouble();
 
-        ver = x1 + x2 + x3;
+        b = x1 + x2 + x3;
         a = Math.max(Math.max(x1,x2),x3);
         c = Math.min(Math.min(x1,x2),x3);
-        b = ver - a - c;
+        b -= (a + c);
 
         if (a<b+c){
             if (Math.pow(a,2)==Math.pow(b,2)+Math.pow(c,2)){
