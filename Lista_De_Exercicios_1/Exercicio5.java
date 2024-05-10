@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio5 {
     public static void main(String[] args) {
-        double a, b ,c, x1, x2, x3, ver;
+        double a, b ,c, x1, x2, x3;
         Scanner ler = new Scanner(System.in);
 
         System.out.println("Digite o valor dos três lados do triângulo:");
