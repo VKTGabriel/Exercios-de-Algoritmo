@@ -1,4 +1,4 @@
-package Lista_De_Exercicios_5_for;
+package Lista_De_Exercicios_6_for;
 
 import java.util.Scanner;
 import java.lang.Math;
