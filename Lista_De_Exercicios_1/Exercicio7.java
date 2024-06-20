@@ -10,17 +10,17 @@ public class Exercicio7 {
 
         int control = 0;
 
-        for (int i=2; i<=num; i++){
-            if (num%i==0 && num!=i){
+        for (int i=2; i<=num/2; i++){
+            if (num%i==0){
                 control = 1;
                 break;
             }
         }
 
         if (control!=1){
-            System.out.println(num + " é primo");
+            System.out.println(num + " e primo");
         } else {
-            System.out.println(num + " não é primo");
+            System.out.println(num + " nao e primo");
         }
     }
 }

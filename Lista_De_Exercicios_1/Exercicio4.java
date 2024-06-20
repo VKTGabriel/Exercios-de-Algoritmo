@@ -34,7 +34,7 @@ public class Exercicio4 {
             s += i;
         }
 
-        System.out.println(s + "\n");
+        System.out.printf("\n%d\n", s);
 
     }
 }

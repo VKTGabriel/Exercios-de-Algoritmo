@@ -17,9 +17,9 @@ public class Exercicio8 {
         }
 
         if (soma == num) {
-            System.out.printf("%d e perfeito", num);
+            System.out.printf("\n%d e perfeito\n", num);
         } else {
-            System.out.printf("%d nao e perfeito", num);
+            System.out.printf("\n%d nao e perfeito\n", num);
         }
     }
 }

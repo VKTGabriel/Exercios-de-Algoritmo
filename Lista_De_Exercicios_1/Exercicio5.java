@@ -1,11 +1,13 @@
 package Lista_De_Exercicios_1;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio5 {
     public static void main(String[] args) {
         double a, b ,c, x1, x2, x3;
-        Scanner ler = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in).useLocale(Locale.US);
+        Locale.setDefault(Locale.US);
 
         System.out.println("Digite o valor dos três lados do triângulo:");
         x1 = ler.nextDouble();
@@ -19,23 +21,21 @@ public class Exercicio5 {
 
         if (a<b+c){
             if (Math.pow(a,2)==Math.pow(b,2)+Math.pow(c,2)){
-                System.out.println("TRIANGULO RETANGULO");
+                System.out.println("\nTRIANGULO RETANGULO");
             } else if (Math.pow(a,2)>Math.pow(b,2)+Math.pow(c,2)) {
-                System.out.println("TRIANGULO OBTUSANGULO");
+                System.out.println("\nTRIANGULO OBTUSANGULO");
             } else {
-                System.out.println("TRIANGULO ACUTANGULO");
+                System.out.println("\nTRIANGULO ACUTANGULO");
             }
 
             if (a == b && b == c){
                 System.out.println("TRIANGULO EQUILATERO");
             } else if (a == b || b == c) {
                 System.out.println("TRIANGULO ISOSCELES");
-            } else {
-                System.out.println("TRIANGULO ESCALENO");
             }
 
         } else {
-            System.out.println("NAO FORMA TRIANGULO");
+            System.out.println("\nNAO FORMA TRIANGULO");
         }
 
 
