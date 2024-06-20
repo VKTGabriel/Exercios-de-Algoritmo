@@ -16,12 +16,11 @@ public class Exercicio9 {
         while (cont == 0) {
             if (Math.pow(16, mult) > numero) {
                 cont++;
+                mult--;
             } else {
                 mult++;
             }
         }
-
-        mult--;
 
         int[] resultado = new int[mult+1];
 
