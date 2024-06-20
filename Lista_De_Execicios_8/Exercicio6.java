@@ -8,13 +8,14 @@ public class Exercicio6 {
         Random aleatorio = new Random();
         int[] numeros = new int[10];
         int soma = 0;
+        String saida = "Números gerados: ";
 
         for (int i = 0; i < 10; i++) {
             numeros[i] = aleatorio.nextInt(100)+1;
             soma += numeros[i];
-            System.out.printf("%d ", numeros[i]);
+            saida += numeros[i] + " ";
         }
 
-        System.out.printf("\nSoma: %d\n", soma);
+        System.out.printf("\n%s\nSoma: %d\n", saida, soma);
     }
 }

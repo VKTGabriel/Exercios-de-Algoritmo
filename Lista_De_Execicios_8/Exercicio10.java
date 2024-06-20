@@ -18,13 +18,13 @@ public class Exercicio10 {
             vetor2[i] = ler.nextInt();
         }
 
-        String comuns = "Comuns aos dois vetores: ";
+        String comuns = "Comuns aos dois vetores:";
 
         for (int i = 0; i < vetor1.length; i++) {
-            if (!comuns.contains(vetor1[i]+"")){
+            if (!comuns.contains(" "+vetor1[i]+" ")){
                 for (int j = 0; j < vetor2.length; j++) {
                     if (vetor1[i] == vetor2[j]) {
-                        comuns += vetor1[i] + " ";
+                        comuns += " " + vetor1[i] + " ";
                         break;
                     }
                 }

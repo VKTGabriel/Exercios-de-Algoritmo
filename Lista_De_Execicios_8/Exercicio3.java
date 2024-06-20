@@ -15,13 +15,13 @@ public class Exercicio3 {
 
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i] % 2 == 0) {
-                par += numeros[i] + " ";
+                par += numeros[i] + "\t";
             } else {
-                impar += numeros[i] + " ";
+                impar += numeros[i] + "\t";
             }
         }
 
-        System.out.printf("\nPares: %s\nImpar: %s\n", par, impar);
+        System.out.printf("\nPares: %s\nImpares: %s\n", par, impar);
 
     }
 }

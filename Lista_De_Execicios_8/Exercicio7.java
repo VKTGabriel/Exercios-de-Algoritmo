@@ -16,7 +16,7 @@ public class Exercicio7 {
 
         for (int i = 0; i < numeros.length; i++) {
             int analise = numeros[i], cont = 0;
-            String verifica = analise + "";
+            String verifica = analise + " ";
             if (!trava.contains(verifica)) {
                 for (int j = 0; j < numeros.length; j++) {
                     if (numeros[j] == analise) {

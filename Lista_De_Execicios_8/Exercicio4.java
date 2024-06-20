@@ -11,8 +11,12 @@ public class Exercicio4 {
             numero[i] = ler.nextInt();
         }
 
+        String inverso = "Array inverso: ";
+
         for (int j = numero.length - 1; j >= 0 ; j--) {
-            System.out.printf("%d ", numero[j]);
+            inverso += numero[j] + " ";
         }
+
+        System.out.printf("\n%s\n", inverso);
     }
 }

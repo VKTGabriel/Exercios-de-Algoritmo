@@ -28,6 +28,16 @@ public class Exercicio8 {
                 }
             }
         }
-        System.out.printf("\nLinhas 1: %d\nLinha 2: %d\nLinha 3: %d\n---------\nColuna 1: %d\nColuna 2: %d\nColuna 3: %d\n", linha1, linha2, linha3, coluna1, coluna2, coluna3);
+
+        System.out.printf("\nMatriz Gerada:\n");
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.printf("%d\t", matriz[i][j]);
+            }
+            System.out.printf("\n");
+        }
+
+        System.out.printf("\nSomas:\nLinhas 1: %d\nLinha 2: %d\nLinha 3: %d\n---------\nColuna 1: %d\nColuna 2: %d\nColuna 3: %d\n", linha1, linha2, linha3, coluna1, coluna2, coluna3);
     }
 }
