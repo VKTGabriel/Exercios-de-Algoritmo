@@ -28,7 +28,7 @@ public class Exercicio9 {
         for (int i = 0; i < resultado.length; i++) {
             if (mult != 0) {
                 resultado[i] = numero/(int) Math.pow(16,mult);
-                numero -= resultado[i]* (int) Math.pow(16,mult);
+                numero -= resultado[i] * (int) Math.pow(16,mult);
                 mult--;
             } else {
                 resultado[i] = numero;
