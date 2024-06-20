@@ -6,7 +6,7 @@ import java.lang.Math;
 public class Exercicio9 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        int numero, valor, cont = 0, mult = 1;
+        int numero, cont = 0, mult = 0;
         String[] hex = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"};
         String saida = "";
 

@@ -23,10 +23,8 @@ public class Exercicio3 {
                 System.out.println("\nNOTAS:");
                 for (int i = 0; i < notas.length; i++){
                     troco = (int) (valor/notas[i]);
-                    if (troco > 0){
-                        System.out.println(troco + " nota(s) de R$ " + notas[i] + ".00");
-                        valor -= troco*notas[i];
-                    }
+                    System.out.printf("%d nota(s) de R$%d.00\n", troco, notas[i]);
+                    valor -= troco*notas[i];
                 }
             }
 
@@ -34,15 +32,13 @@ public class Exercicio3 {
                 System.out.println("\nMOEDAS:");
                 for (int i = 0; i < moedas.length; i++){
                     troco = (int) (valor/moedas[i]);
-                    if (troco > 0){
-                        System.out.printf("%d moedas(s) de R$ %.2f\n", troco, moedas[i]);
-                        valor = Double.parseDouble(formatar.format(valor%moedas[i]));
-                    }
+                    System.out.printf("%d moedas(s) de R$ %.2f\n", troco, moedas[i]);
+                    valor = Double.parseDouble(formatar.format(valor%moedas[i]));
                 }
             }
 
         } else {
-            System.out.println("Valor inválido");
+            System.out.println("Número inválido");
         }
     }
 }
