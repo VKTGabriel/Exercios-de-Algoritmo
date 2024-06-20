@@ -39,6 +39,5 @@ public class Exercicio9 {
         }
 
         System.out.printf("\n%s\n", saida);
-
     }
 }
